@@ -1,7 +1,7 @@
 # Stock Dashboard App
 
 ## Overview
-This Streamlit dashboard app provides financial data and analysis for stocks. It uses `yfinance` to fetch data, and financial statements.
+This Streamlit dashboard app provides financial data visualization and analysis for stocks. It uses `yfinance` to fetch data, and financial statements.
 
 ## Features
 - Fetch real-time stock data using `yfinance`.
@@ -13,19 +13,19 @@ To run this app locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+`git clone https://github.com/your-username/your-repo-name.git`
 
 2. Navigate to the repository folder:
 
-cd your-repo-name
+`cd your-repo-name`
 
 3. Install the required packages:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Run the Streamlit app:
 
-streamlit run app.py
+`streamlit run app.py`
 
 
 ## Usage
@@ -53,4 +53,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Contact
 For any queries or feedback, please open an issue in the GitHub repository or contact me at `your-email@example.com`.
-
