@@ -51,10 +51,12 @@ with st.sidebar:
         x = st.columns(2)
         for i, (ticker, name) in enumerate(mkt_list01):
             with x[i]:
+                get_market_data(ticker)
                 display_market_data(ticker, name)
         y = st.columns(2)
         for i, (ticker, name) in enumerate(mkt_list02):
             with y[i]:
+                get_market_data(ticker)
                 display_market_data(ticker, name)
 
         # MKT
@@ -63,10 +65,12 @@ with st.sidebar:
         x = st.columns(2)
         for i, (ticker, name) in enumerate(us_list01):
             with x[i]:
+                get_market_data(ticker)
                 display_market_data(ticker, name)
         y = st.columns(2)
         for i, (ticker, name) in enumerate(us_list02):
             with y[i]:
+                get_market_data(ticker)
                 display_market_data(ticker, name)
 
         # ETF
@@ -75,10 +79,12 @@ with st.sidebar:
         x = st.columns(2)
         for i, (ticker, name) in enumerate(etf_list01):
             with x[i]:
+                get_market_data(ticker)
                 display_market_data(ticker, name)
         y = st.columns(2)
         for i, (ticker, name) in enumerate(etf_list02):
             with y[i]:
+                get_market_data(ticker)
                 display_market_data(ticker, name)
 
     except Exception as e:
