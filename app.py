@@ -126,4 +126,4 @@ if ticker:
         st.table(data)
 
     except Exception as e:
-        st.error(f"Error fetching market data: {e}")
+        st.error(f"Error fetching fin data: {e}")
