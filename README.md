@@ -8,9 +8,9 @@ This Streamlit dashboard app provides financial data visualization and analysis 
 - Display key financial metrics and performance data.
 - Visualize stock price trends and financial ratios with interactive charts.
 
-![Pic](yf_screenshot.png)
-![Pic](yf_screenshot.png)
-![Pic](yf_screenshot.png)
+![Pic](yf0_screenshot.png)
+![Pic](yf1_screenshot.png)
+![Pic](yf2_screenshot.png)
 
 ## Installation
 To run this app locally, follow these steps:
