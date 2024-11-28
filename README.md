@@ -29,7 +29,7 @@ To run this app locally, follow these steps:
 
 4. Run the Streamlit app:
 
-`streamlit run app.py`
+`streamlit run financial_dashboard_app.py`
 
 
 ## Usage
